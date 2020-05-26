@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 0.3fr 2.5fr 0.2fr;
+}
+
+nav {
+    grid-column: 2;
+    grid-row: 1;
+}
+footer {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.profile-pic {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.logo-pic {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.intro-heading {
+    grid-column: 1;
+    grid-row: 2;
+}
