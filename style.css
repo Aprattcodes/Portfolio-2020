@@ -23,7 +23,16 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
 }
+
+a { 
+    color: inherit;
+    text-decoration: none;
+    
+} 
+
 footer {
     grid-column: 2;
     grid-row: 4;
@@ -35,6 +44,7 @@ footer {
     grid-column: 1;
     grid-row: 2;
     padding-right: 20px;
+    
 }
 
 .logo-pic {
@@ -60,4 +70,15 @@ font-family: 'Staatliches', cursive;*/
     display: flex;
     padding: 100px;
 
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+.about-div {
+    grid-column: 2;
+    grid-row: 2;
+    padding-right: 200px;
 }
