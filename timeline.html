@@ -13,24 +13,17 @@
 </head>
 <body>
 
-    
-    <div class="logo-pic"> <!-- Logo picture top left -->
-        <img src="https://lh3.googleusercontent.com/U3x8sKXv5B09wi7iSiMb5vcMHQeSRK576FcHuxddVLsBOdTIovjuFjy0vfk13Oilem_sjYdg9Xtp4vhOrevaQBFKWqz3cWI6jIQyakcpyhGWwcFSkHa8jZP5b6ny9-_By7Xd8QE27Q=w2400" alt="logo" border="0">
-    </div>
-    <nav class="nav-content">
-        <a href="http://www.akpdesigns.tech/about.html">About Me.</a>
-        <a href="http://www.akpdesigns.tech/resume.html">Resume.</a>
-        <a class="nav-link" href="#">Projects.</a>
-        <a href="http://www.akpdesigns.tech/timeline.html">Timeline.</a>
+    <nav>
+        <div class="nav-content"> <!-- Top right navigation -->
+            <a href="about.html"><h2>About me.</h2></a>
+            <a href="resume.html"><h2>Resumè.</h2></a> 
+            <a href="#"><h2>Timeline.</h2></a>
+        </div>    
     </nav>
-    <div class="head-container"> <!-- Profile pic and Main heading -->
-        <img src="https://lh3.googleusercontent.com/RlE55xpSHs7-YgFT_TN6nkAKRvyVt_rV6u651YiMxCv1s2CLanVbJHK4QKjPl6YU_5LvfwKrNOkvsMxr8yhuEvFKGm5r4YqGkGlaKXyKt4qBeHmx0jiuI6dpLXl5ZX-YjoKfLlWBtA=w2400" alt="profile pic" style="height: 150px; width: auto; margin-top: 46px;">
-        <h1 class="intro-heading">Hello! I am Alyssa Pratt.</h1>
-    </div>
-    <div class="sig"> <!-- signature -->
-        <img src="https://lh3.googleusercontent.com/7-FqmqxN4KDVYoRvVfGmKoRDUnhx2Iffss9SyAh6ftyL6SQY5Y9li4iK8Po6jExGq1zJg9zPiVDrHixVkMhO4yiAhdftLIFzT_iEzf8C-sw1xQ_JQRToviDHb_gR-FCLGIA38WApOA=w2400" alt="sig">
-    </div>
 
+    <div id="like_button_container"></div>
+
+    
     <footer> <!-- footer with icons -->
         <a href="https://www.linkedin.com/in/alyssakpratt/" target="_blank"><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="linkedin" border="0"></a>
         <a href="https://github.com/alyssakpratt" target="_blank"><img src="https://img.icons8.com/ios/50/000000/github-2.png" alt="github" border="0"></a>
@@ -39,10 +32,12 @@
         <a href="#" target="_blank"><img src="https://img.icons8.com/ios/50/000000/stackoverflow.png" alt="stack-overflow" border="0"></a>
         <a href="#" target="_blank"><img src="https://img.icons8.com/ios/50/000000/wordpress.png" alt="wordpress" border="0"></a>
     </footer>
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <Script>
-        <script src="C:\Users\alyss\Documents\GitHub\Portfolio2020\index.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </Script>
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="time-line.js"></script>
 </body>
 </html>

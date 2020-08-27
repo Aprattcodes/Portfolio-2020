@@ -24,14 +24,14 @@ nav {
     justify-content: space-around;
     padding: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
+    
 }
 
-a { 
-    color: inherit;
-    text-decoration: none;
-    
-} 
+a:link{
+  text-decoration: none!important;
+  text-decoration-color: black;
+}
 
 footer {
     grid-column: 2;
@@ -89,81 +89,19 @@ p {
     padding-right: 200px;
 }
 
-.image-sliderfade  
-{ 
-  display: none; 
-} 
-  
-.imgin  
-{ 
-  vertical-align: middle; 
-} 
-  
-/* Slideshow container */
-.container  
-{ 
-  max-width: 1000px; 
-  position: relative; 
-  margin: auto; 
-} 
-  
-/* Caption text */
-.text  
-{ 
-  color: #f2f2f2; 
-  font-size: 15px; 
-  padding: 20px 15px; 
-  position: absolute; 
-  right: 10px; 
-  bottom: 10px; 
-  width: 40%; 
-  background: rgba(0, 0, 0, .7); 
-  text-align: left; 
-} 
-  
-/* The dots/bullets/indicators */
-.dot  
-{ 
-  height: 15px; 
-  width: 15px; 
-  margin: 0 2px; 
-  background-color: transparent; 
-  border-color: #ddd; 
-  border-width: 5 px; 
-  border-style: solid; 
-  border-radius: 50%; 
-  display: inline-block; 
-  transition: border-color 0.6s ease; 
-} 
-  
-.active  
-{ 
-  border-color: #666; 
-} 
-  
-/* Animation */
-.fade  
-{ 
-  -webkit-animation-name: fade-image; 
-  -webkit-animation-duration: 1.5s; 
-  animation-name: fade-image; 
-  animation-duration: 1.5s; 
-} 
-  
-@-webkit-keyframes fade-image 
-{ 
-  from {opacity: .4}  
-  to {opacity: 1} 
-} 
-  
-@keyframes fade-image 
-{ 
-  from {opacity: .4}  
-  to {opacity: 1} 
-} 
-  
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px)  
-{ 
-  .text {font-size: 11px} 
-} 
+.container-grid {
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+.port-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.port-div {
+  width: 20vw;
+  height: 20vh;
+}
+
