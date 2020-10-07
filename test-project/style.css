@@ -1,0 +1,41 @@
+h1 {
+position: absolute;
+width: 306px;
+height: 98px;
+left: 501px;
+top: 358px;
+
+font-family: Sansita One;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 76.19%;
+/* or 76px */
+}
+
+.triangle-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-top: 20rem solid #58A491; 
+}
+
+.triangle-right {
+    width: 0px;
+    height: 0px;
+    border-right: 20rem solid transparent;
+    border-top: 20rem solid transparent;
+    border-left: 20rem solid #8ABF97;
+}
+
+nav {
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: #B2CAC6;
+
+}
