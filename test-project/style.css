@@ -28,12 +28,30 @@ line-height: 76.19%;
     border-top: 20rem solid #58A491; 
 }
 
-.triangle-down-menu {
+.triangle-down2 {
+    align-self: center;
+    margin-top: -10rem;
     width: 0px;
     height: 0px;
-    border-left: 5rem solid transparent;
-    border-right: 5rem solid transparent;
-    border-top: 5rem solid #C57654; 
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-top: 15rem solid #50a6bb; 
+}
+
+.triangle-menu {
+    position: relative;
+    align-self: flex-end;
+    margin: 1rem;
+    width: 0px;
+    height: 0px;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1rem solid #C57654; 
+}
+
+.drop-down-menu {
+    position: relative;
+    align-self: flex-end;
 }
 
 .triangle-right {
